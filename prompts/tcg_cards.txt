@@ -1,0 +1,29 @@
+[ação]
+create a script to create a table in sqlserver
+
+[context]
+- the firt table is a table to save a pokemon tcg card
+- the second table is a table to save collections set
+
+connext tables with foreign and primary keys
+
+[informações]
+first table: tbl_cards
+- id
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- damage
+- weak
+- ressils
+- reatreat
+- cardNumberINCollection
+
+second table: tbl_collections
+- id
+- collection set name
+- release Date
+- totalCardsInCollection
